@@ -1,4 +1,7 @@
 /* Button Background Style */
+%theme-color{
+    background: linear-gradient(to right, #01a6fd 0%, #17d0cf 51%, #01a6fd 100%);
+}
 %btn{
     text-transform: uppercase;
     padding: 20px 35px;
@@ -7,33 +10,8 @@
     letter-spacing: 2px;
     color: $red; 
     background: transparent;
-    font-family: $rubik;
     line-height: 1; 
     text-align: center;
     border-radius: 30px;
 
-}
-%border-btn{
-    @extend %btn;
-    border: 3px solid #e5eafd;
-}
-%red-btn{
-    @extend %btn;
-    background: $red;
-    color: $white;
-}
-%white-btn{
-    @extend %btn;
-    background: $white;
-    color: #272063;
-}
-%babyblue-btn{
-    @extend %btn;
-    background: $babyblue;
-    color: $black;
-}
-%blue-dip-btn{
-    @extend %btn;
-    background: $blue-dip;
-    color: $white;
 }

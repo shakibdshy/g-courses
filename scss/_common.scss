@@ -3,14 +3,13 @@
 /*----------------------------------------*/
 
 /* 1. Theme default css */
-@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900|Rubik:300,400,500,700,900');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,400i,500,500i,700,700i,900,900i&display=swap');
 body {
-	font-family: $popins;
+	font-family: $roboto;
 	font-weight: 400;
-    font-style: normal;
-	color:$theme-color; 
-	font-size: 14px;
-	line-height: 30px;
+	color:$black; 
+	font-size: 16px;
+	line-height: 1.4;
 }
 .img,img {
 	max-width: 100%;
@@ -58,12 +57,7 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: $rubik;
-	font-weight: 500;
-	color: $blue-dip;
-	margin-top: 0px;
-	font-style: normal;
-	text-transform: capitalize; 
+	font-weight: 500; 
 }
 h1 a,
 h2 a,
@@ -74,21 +68,21 @@ h6 a {
 	color: inherit;
 }
 h1 {
-	font-size: 55px;
-	color: $blue;
+	font-size: 90px;
+	color: $white;
 	font-weight: 100;
 }
 h2 {
-	font-size: 46px;
+	font-size: 38px;
 }
 h3 {
 	font-size: 28px;
 }
 h4 {
-	font-size: 24px;
+	font-size: 18px;
 }
 h5 {
-	font-size: 18px;
+	font-size: 17px;
 }
 h6 {
 	font-size: 14px;
@@ -101,9 +95,6 @@ li {
 	list-style: none
 }
 p {
-	font-size: 14px;
-	font-weight: normal;
-	line-height: 30px;
 	color: $theme-color;
 }
 hr {
@@ -163,17 +154,14 @@ label {
 /*--
     - Font Famaly
 -----------------------------------------*/
-.rubik{
-	font-family: $rubik;
-}
-.popins {
-	font-family: $popins;
+.roboto{
+	font-family: $roboto;
 }
 
 // Menu Area
 .menu-area{
     li{
-        display: inline-block;
+        display: inline-block;play: inline-block;
     }
 }
 /*--
@@ -227,39 +215,7 @@ label {
 .btn{
 	@extend %btn;
 }
-.border-btn{
-	@extend %border-btn;
-}
-.red-btn{
-	@extend %red-btn;
-	&:hover{
-        @extend %white-btn;
-    }
-}
-.white-btn{
-	@extend %white-btn;
-	&:hover{
-        @extend %red-btn;
-    }
-}
-.babyblue-btn{
-	@extend %babyblue-btn;
-	&:hover{
-        @extend %red-btn;
-    }
-}
-.blue-btn{
-	@extend %babyblue-btn;
-	&:hover{
-        @extend %blue-dip-btn; 
-    }
-}
-.blue-dip-btn{
-	@extend %blue-dip-btn;
-	&:hover{
-        @extend %babyblue-btn;
-    }
-}
+
 
 /* Small Heding Title*/
 .single-content{
