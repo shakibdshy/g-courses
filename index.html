@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css" />
     <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/meanmenu.css">
     <link rel="stylesheet" href="css/style.css">
 
 </head>
@@ -20,24 +21,43 @@
             <div class="header-area">
                 <div class="container">
                     <div class="row">
-                        <div class="col-xl-3">
+                        <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-6">
                             <div class="logo-area">
                                 <a href="#"><img src="img/logo/logo.png" alt="Logo"></a>
                             </div>
                         </div>
-                        <div class="col-xl-7">
-                            <div class="lang">
+                        <div class="col-xl-7 col-lg-7 col-md-8 col-sm-6 col-6">
+                            <div class="lang d-none d-lg-block">
                                 <span>
                                     EN
                                     <i class="fas fa-angle-down"></i>
                                 </span>
                             </div>
                             <div class="menu-area text-right">
-                                <nav>
+                                <nav id="mobile-menu">
                                     <ul>
                                         <li><a href="#">Home</a></li>
                                         <li><a href="#">About Us</a></li>
-                                        <li><a href="#">Courses</a></li>
+                                        <li>
+                                            <a href="#">Courses</a>
+                                            <ul class="sub-menu">
+                                                <li>
+                                                    <a href="#">Popular Courses</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Latest Courses</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Popular Courses</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Popular Courses</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Popular Courses</a>
+                                                </li>
+                                            </ul>
+                                        </li>
                                         <li><a href="#">Team</a></li>
                                         <li><a href="#">Teachers</a></li>
                                         <li><a href="#">Contact Us</a></li>
@@ -45,22 +65,128 @@
                                 </nav>
                             </div>
                         </div>
-                        <div class="col-xl-1">
+                        <div class="col-xl-1 col-lg-1 d-none d-lg-block">
                             <div class="login-area">
                                 <a href="#">Login</a>
                             </div>
                         </div>
-                        <div class="col-xl-1">
-                            <ul>
-                                <li><a href="#"><i class="fas fa-shopping-bag"></i></a></li>
-                                <li><a href="#"><i class="fas fa-search"></i></a></li>
-                            </ul>
+                        <div class="col-xl-1 col-lg-1 d-none d-lg-block px-0">
+                            <div class="cart-area">
+                                <ul>
+                                    <li><a href="#"><i class="fas fa-shopping-bag"></i></a></li>
+                                    <li><a href="#"><i class="fas fa-search"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="mobile-menu"></div>
                         </div>
                     </div>
                 </div>
             </div>
         </header>
         <!-- Header Area End -->
+
+        <!-- Slider Area Start -->
+        <section class="slider-area">
+            <div class="slider-active owl-carousel">
+                <div class="single-slider" style="background: url('./img/banner/s-1.jpg') center center /cover; height: 980px;">
+                    <div class="slider-content text-center">
+                        <p class="section-title">EDUCATION & TRAINING ORGANIZATION</p>
+                        <h2 class="title-h"><span>Innovative</span> Solutions <br> For <span>Education.</span></h2>
+                        <a class="btn" href="#">OUR COURSES <i class="fas fa-caret-right"></i></a>
+                    </div>
+                </div>
+                <div class="single-slider" style="background: url('./img/banner/s-1.jpg') center center /cover; height: 980px;">
+                    <div class="slider-content text-center">
+                        <p class="section-title">EDUCATION & TRAINING ORGANIZATION</p>
+                        <h2 class="title-h"><span>Innovative</span> Solutions <br> For <span>Education.</span></h2>
+                        <a class="btn" href="#">OUR COURSES <i class="fas fa-caret-right"></i></a>
+                    </div>
+                </div>
+                <div class="single-slider" style="background: url('./img/banner/s-1.jpg') center center /cover; height: 980px;">
+                    <div class="slider-content text-center">
+                        <p class="section-title">EDUCATION & TRAINING ORGANIZATION</p>
+                        <h2 class="title-h"><span>Innovative</span> Solutions <br> For <span>Education.</span></h2>
+                        <a class="btn" href="#">OUR COURSES <i class="fas fa-caret-right"></i></a>
+                    </div>
+                </div>
+                <div class="single-slider" style="background: url('./img/banner/s-1.jpg') center center /cover; height: 980px;">
+                    <div class="slider-content text-center">
+                        <p class="section-title">EDUCATION & TRAINING ORGANIZATION</p>
+                        <h2 class="title-h"><span>Innovative</span> Solutions <br> For <span>Education.</span></h2>
+                        <a class="btn" href="#">OUR COURSES <i class="fas fa-caret-right"></i></a>
+                    </div>
+                </div>
+                <div class="single-slider" style="background: url('./img/banner/s-1.jpg') center center /cover; height: 980px;">
+                    <div class="slider-content text-center">
+                        <p class="section-title">EDUCATION & TRAINING ORGANIZATION</p>
+                        <h2 class="title-h"><span>Innovative</span> Solutions <br> For <span>Education.</span></h2>
+                        <a class="btn" href="#">OUR COURSES <i class="fas fa-caret-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Slider Area End -->
+        
+        <!-- Search Area Start -->
+        <section class="search-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="search-title text-center">
+                            <p class="section-title">LEARN NEW SKILLS</p>
+                            <h2 class="title-h"><span>Search</span>Genius Courses.</h2>
+                        </div>
+                        <div class="search">
+                            <form action="#">
+                                <input type="text" placeholder="Type what do you want to learn today?">
+                                <button type="submit" class="theme-btn">Search Courses</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xl-3 col-lg-3 col-md-6">
+                        <div class="search-content">
+                            <div class="search-icon">
+                                <i class="flaticon-graduation-hat text-g"></i>
+                            </div>
+                            <h3>5M</h3>
+                            <span>Students Enrolled</span>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-6">
+                        <div class="search-content">
+                            <div class="search-icon">
+                                <i class="flaticon-book text-g"></i>
+                            </div>
+                            <h3 class="counter">122.500</h3>
+                            <span>Students Enrolled</span>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-6">
+                        <div class="search-content">
+                            <div class="search-icon">
+                                <i class="flaticon-favorites-button text-g"></i>
+                            </div>
+                            <h3 class="counter">15.000</h3>
+                            <span>Students Enrolled</span>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-6">
+                        <div class="search-content">
+                            <div class="search-icon">
+                                <i class="flaticon-group text-g"></i>
+                            </div>
+                            <h3 class="counter">15000.00</h3>
+                            <span>Students Enrolled</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Search Area End -->
     </main>
     <!-- Main Area End-->
 
@@ -77,6 +203,7 @@
     <script type="text/javascript" src="js/owl.carousel.min.js"></script> 
     <script type="text/javascript" src="js/waypoints.min.js"></script>
     <script type="text/javascript" src="js/jquery.counterup.min.js"></script>   
+    <script type="text/javascript" src="js/jquery.meanmenu.min.js"></script>
     <script type="text/javascript" src="js/active.js"></script>
 </body>
 

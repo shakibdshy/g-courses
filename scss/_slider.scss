@@ -1,0 +1,74 @@
+// Slider Area Start
+.slider-area{
+    position: relative;
+    top: -90px;
+    width: 100%;
+    .owl-nav{
+        button{
+            @extend %owl-nav;
+            &.owl-next{
+                right: 0;
+            }
+        }
+    }
+    .owl-dots{
+        position: absolute;
+        bottom: 10px;
+        left: 0;
+        right: 0;
+        text-align: center;
+        button{
+            &.owl-dot{
+                background: #575757;
+                width: 4px;
+                height: 20px;
+                margin-right: 15px;
+                @include transition(.3s);
+                border-radius: 5px;
+                &.active{
+                    height: 40px;
+                    position: relative;
+                    bottom: 10px;
+                    background: $white;
+                    top: 0;
+                }
+            }
+        }
+    }
+}
+.single-slider{
+    position: relative;
+    .slider-content{
+        position: absolute;
+        top: 50%;
+        @include transform(translateY(-50%));
+        left: 0;
+        right: 0;
+        h2{
+            font-size: 90px;
+            color: $white;
+            @media #{$md}{
+                font-size: 65px;
+            }
+            @media #{$xs}{
+                font-size: 45px;
+            }
+        }
+        a{
+            color: $white;
+            border: 2px solid $theme-color;
+            padding: 15px 35px;
+            margin-top: 60px;
+            @media #{$md}{
+                margin-top: 40px;
+            }
+            @media #{$xs}{
+                margin-top: 40px;
+            }
+            i{
+                color: $theme-color;
+            }
+        }
+    }
+}
+// Slider Area End

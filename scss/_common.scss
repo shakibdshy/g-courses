@@ -215,6 +215,12 @@ label {
 .btn{
 	@extend %btn;
 }
+.theme-btn{
+	@extend %btn;
+	background: linear-gradient(to right, #01a6fd 0%, #17d0cf 51%, #01a6fd 100%);
+	color: $white;
+	padding: 20px 30px;
+}
 
 
 /* Small Heding Title*/
@@ -257,6 +263,27 @@ label {
 	top: -80px;
 	z-index: -1;
 }
+/* Custom Class*/
+.section-title{
+	@extend %section-title;
+	&::before{
+		@extend %title-before;
+	}
+	&::after{
+		@extend %title-after;
+	}
+}
+.title-h{
+	@extend %title-h;
+	span{
+		font-weight: 700;
+	}
+}
+.text-g{
+	@extend %text-gradiant;
+}
+
+
 /*--
     - Margin & Padding
 -----------------------------------------*/
