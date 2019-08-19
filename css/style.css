@@ -54,7 +54,7 @@ Template Name : Genius Courses
   opacity: 0.9; }
 
 /* Button Background Style */
-.text-g, .menu-area nav li:hover {
+.text-g, .menu-area nav li:hover, .popular-img span {
   background: -webkit-gradient(linear, left top, right top, from(#01a6fd), color-stop(51%, #17d0cf), to(#01a6fd));
   background: -webkit-linear-gradient(left, #01a6fd 0%, #17d0cf 51%, #01a6fd 100%);
   background: -o-linear-gradient(left, #01a6fd 0%, #17d0cf 51%, #01a6fd 100%);
@@ -115,7 +115,7 @@ Template Name : Genius Courses
   text-align: center;
   border-radius: 5px; }
 
-.slider-area .owl-nav button {
+.slider-area .owl-nav button, .popular-courses-area .owl-nav button {
   position: absolute;
   top: 50%;
   font-size: 22px !important;
@@ -392,6 +392,13 @@ label {
 /* Custom Class*/
 .title-h span {
   font-weight: 700; }
+
+.hr {
+  height: 2px;
+  width: 50px;
+  background: #17d0cf;
+  margin-left: 0;
+  margin-top: 25px; }
 
 /*--
     - Margin & Padding
@@ -1588,5 +1595,137 @@ label {
   display: block; }
 
 /*Search Area Start*/
+/*
+   Popular Courses
+*/
+.popular-courses-area {
+  padding-top: 75px;
+  padding-bottom: 100px; }
+  .popular-courses-area .owl-nav button {
+    top: -75px;
+    margin: 0; }
+    .popular-courses-area .owl-nav button.owl-prev {
+      left: 89%; }
+    .popular-courses-area .owl-nav button.owl-next {
+      right: 0; }
+
+.popular-init:hover .popular-img a {
+  opacity: 1;
+  visibility: visible;
+  right: 20px; }
+
+.popular-img {
+  position: relative;
+  margin-top: 15px;
+  margin-bottom: 23px;
+  -webkit-transition: all 0.3s ease-out 0s;
+  -moz-transition: all 0.3s ease-out 0s;
+  -ms-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s; }
+  .popular-img img {
+    width: 100%; }
+  .popular-img span {
+    font-weight: 700;
+    padding: 5px 15px;
+    display: inline-block;
+    border-radius: 5px;
+    background-size: 200% auto;
+    color: #fff;
+    position: absolute;
+    top: 20px;
+    left: 20px; }
+  .popular-img a {
+    color: #fff;
+    position: absolute;
+    top: 25px;
+    right: 0;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    -webkit-transition: all 0.3s ease-out 0s;
+    -moz-transition: all 0.3s ease-out 0s;
+    -ms-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+    opacity: 0;
+    visibility: hidden; }
+
+.popular-meta {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .popular-meta .cata a {
+    text-decoration: none;
+    color: #17d0cf;
+    font-size: 14px;
+    font-weight: 700;
+    margin-right: 30px; }
+  .popular-meta .author {
+    position: relative;
+    margin-right: 30px; }
+    .popular-meta .author a {
+      font-size: 14px;
+      font-weight: 700; }
+    .popular-meta .author::before {
+      position: absolute;
+      content: '';
+      width: 1px;
+      height: 15px;
+      background: #d0d0d0;
+      top: 5px;
+      left: -14px; }
+  .popular-meta .review {
+    position: relative; }
+    .popular-meta .review li {
+      list-style: none;
+      float: left;
+      margin-right: 2px;
+      font-size: 14px;
+      color: #ffc926; }
+    .popular-meta .review::before {
+      position: absolute;
+      content: '';
+      width: 1px;
+      height: 15px;
+      background: #d0d0d0;
+      top: 5px;
+      left: -14px; }
+
+.popular-title {
+  padding-top: 12px; }
+  .popular-title h3 a {
+    font-size: 22px;
+    line-height: 1.4;
+    font-weight: 500;
+    color: #333333;
+    text-decoration: none; }
+    .popular-title h3 a span {
+      font-size: 11px;
+      font-weight: 700;
+      background: #ff5c26;
+      color: #fff;
+      padding: 5px 10px;
+      border-radius: 4px;
+      line-height: 1.2;
+      position: relative;
+      bottom: 7px; }
+
+.popular-view {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .popular-view li {
+    list-style: none;
+    float: left;
+    color: #989898;
+    font-size: 14px;
+    padding: 5px 15px;
+    border-radius: 3px;
+    background-color: #f7f7f7;
+    margin-right: 5px;
+    margin-top: 10px;
+    font-weight: 700; }
 
 /*# sourceMappingURL=style.css.map */

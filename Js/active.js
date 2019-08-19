@@ -32,3 +32,24 @@ $('.counter').counterUp({
       time: 1000
 });
 
+// Popular Courses Slider Active
+$('.active-popular-courses').owlCarousel({
+      loop:true,
+      nav:true,
+      margin: 30,
+      nevText: ['<i class="fas fa-chevron-left"></i>','<i class="fas fa-chevron-right"></i>'],
+      responsive:{
+            0:{
+                  items:1,
+                  nav:false
+            },
+            600:{
+                  items:1,
+                  nav:false
+            },
+            1000:{
+                  items:3
+            }
+      }
+})
+

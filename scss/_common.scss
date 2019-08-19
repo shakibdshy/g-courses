@@ -282,7 +282,13 @@ label {
 .text-g{
 	@extend %text-gradiant;
 }
-
+.hr{
+	height: 2px;
+	width: 50px;
+	background: $theme-color;
+	margin-left: 0;
+	margin-top: 25px;
+}
 
 /*--
     - Margin & Padding
