@@ -1728,4 +1728,22 @@ label {
     margin-top: 10px;
     font-weight: 700; }
 
+.about-area {
+  background: #eaeaea;
+  padding-top: 95px; }
+
+.about-init {
+  position: relative; }
+
+.about-bg {
+  position: relative; }
+
+.about-content {
+  position: absolute;
+  top: 160px !important;
+  width: 360px;
+  left: 24px;
+  padding: 30px;
+  top: 0; }
+
 /*# sourceMappingURL=style.css.map */
