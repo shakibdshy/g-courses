@@ -16,3 +16,94 @@
    padding: 30px;
    top: 0;
 }
+.about-text{
+   text-align: center;
+   h3{
+      font-size: 35px;
+      color: $white;
+      font-weight: 300;
+      span{
+         font-weight: 700;
+      }
+   }
+   p{
+      color: $white;
+   }
+}
+.about-form{
+   form{
+      input{
+         width: 100%;
+         padding: 10px 15px;
+         color: #aaaaaa;
+         border-radius: 5px;
+         margin-bottom: 5px;
+         border: none;
+      }
+      select{
+         width: 100%;
+         padding: 10px 15px;
+         color: #aaaaaa;
+         border-radius: 5px;
+         margin-bottom: 5px;
+         border: none;
+      }
+      textarea{
+         width: 100%;
+         padding: 10px 15px;
+         color: #aaaaaa;
+         border-radius: 5px;
+         margin-bottom: 5px;
+         border: none;
+      }
+      button{
+         width: 100%;
+         border: none;
+         padding: 15px;
+         font-weight: 700;
+         text-transform: uppercase;
+         background: #ff5b10;
+         color: $white;
+      }
+   }
+}
+.about-right{
+   padding-top: 25px;
+}
+.about-right-content{
+   span{
+      font-size: 22px;
+      font-weight: 500;
+   }
+   p{
+      font-size: 18px;
+   }
+   ul{
+      padding: 0;
+      li{
+         list-style: none;
+         line-height: 1.6;
+         font-size: 16px;
+         font-weight: 500;
+         position: relative;
+         padding-left: 25px;
+         &::before{
+            position: absolute;
+            content: '';
+            width: 15px;
+            height: 15px;
+            border-radius: 50%;
+            background: $theme-color;
+            left: 0;
+            top: 6px;
+         }
+      }
+   }
+   .about-btn{
+      margin-top: 65px;
+      a{
+         margin-right: 20px;
+         padding: 15px 25px;
+      }
+   }
+}

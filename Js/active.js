@@ -51,5 +51,22 @@ $('.active-popular-courses').owlCarousel({
                   items:3
             }
       }
+});
+
+// Why Choose Slider Active
+$('.why-choose-active').owlCarousel({
+      loop:true,
+      nav:false,
+      responsive:{
+            0:{
+                  items:1,
+            },
+            600:{
+                  items:2,
+            },
+            1000:{
+                  items:3
+            }
+      }
 })
 

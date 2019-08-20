@@ -1,0 +1,47 @@
+/*********************************
+ Why Choose Area Start 
+ ********************************/
+ .why-choose-area{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    .search-title{
+       color: $white;
+    }
+    .owl-dots{
+       text-align: center;
+       margin-top: 20px;
+       button{
+          width: 20px;
+          height: 4px;
+          background: #4175a4;
+          margin-right: 15px;
+          @include transition(.3s);
+          &.active{
+             width: 40px;
+             background: $white;
+          }
+       }
+    }
+ }
+ .why-choose-icon{
+    float: left;
+    i{
+       font-size: 50px;
+       @extend %text-gradiant;
+    }
+ }
+ .why-choose-content{
+    overflow: hidden;
+    padding-left: 15px;
+    margin-top: 50px;
+    h4{
+       font-size: 22px;
+       font-weight: 700;
+       color: $white;
+    }
+    p{
+       color: #5f94bb;
+       width: 90%;
+    }
+ }
+ 
