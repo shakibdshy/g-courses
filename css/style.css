@@ -115,7 +115,7 @@ Template Name : Genius Courses
   text-align: center;
   border-radius: 5px; }
 
-.slider-area .owl-nav button, .popular-courses-area .owl-nav button {
+.slider-area .owl-nav button, .popular-courses-area .owl-nav button, .testimonial-area .owl-nav button {
   position: absolute;
   top: 50%;
   font-size: 22px !important;
@@ -1866,5 +1866,65 @@ label {
   .why-choose-content p {
     color: #5f94bb;
     width: 90%; }
+
+.testimonial-area {
+  padding-top: 45px;
+  position: relative; }
+  .testimonial-area .owl-nav button {
+    top: -95px;
+    margin: 0;
+    background: #3080b6 !important;
+    color: #fff; }
+    .testimonial-area .owl-nav button span {
+      color: #fff;
+      font-size: 35px; }
+    .testimonial-area .owl-nav button.owl-prev {
+      left: 89%; }
+    .testimonial-area .owl-nav button.owl-next {
+      right: 0; }
+
+.single-testimonial {
+  border: 2px solid #3581b4;
+  border-radius: 5px;
+  padding: 35px;
+  color: #fff;
+  position: relative;
+  margin-bottom: 30px; }
+  .single-testimonial p {
+    line-height: 1.5;
+    font-weight: 300;
+    font-style: italic;
+    color: #fff; }
+    .single-testimonial p span {
+      font-weight: 700; }
+  .single-testimonial .testimonial-author {
+    float: left;
+    color: #17d0cf;
+    font-size: 13px;
+    font-weight: 700;
+    margin-right: 25px;
+    position: relative; }
+    .single-testimonial .testimonial-author::before {
+      position: absolute;
+      content: '';
+      width: 1px;
+      height: 12px;
+      right: -14px;
+      top: 5px; }
+  .single-testimonial .testimonial-cat {
+    overflow: hidden;
+    font-size: 13px;
+    color: #17d0cf; }
+    .single-testimonial .testimonial-cat::after {
+      position: absolute;
+      content: '\f10d';
+      font-weight: 900;
+      font-family: 'Font Awesome 5 Free';
+      color: #3080b6;
+      font-size: 40px;
+      right: 35px;
+      padding: 5px 20px;
+      bottom: -30px;
+      background-color: #125693; }
 
 /*# sourceMappingURL=style.css.map */

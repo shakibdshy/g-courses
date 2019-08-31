@@ -69,4 +69,22 @@ $('.why-choose-active').owlCarousel({
             }
       }
 })
+// Why Choose Slider Active
+$('.active-testimonial').owlCarousel({
+      loop  :true,
+      margin: 30,
+      nav   :true,
+      nevText: ['<i class="fas fa-chevron-left"></i>','<i class="fas fa-chevron-right"></i>'],
+      responsive:{
+            0:{
+                  items:1,
+            },
+            600:{
+                  items:2,
+            },
+            1000:{
+                  items:2
+            }
+      }
+})
 
