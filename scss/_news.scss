@@ -1,0 +1,52 @@
+/*===================== News Area Start =============================*/
+.news-wrapper{}
+.news-thum{
+   float: left;
+   margin-right: 20px;
+}
+.news-content{
+   overflow: hidden;
+   margin-bottom: 30px;
+   h3{
+      line-height: 0.8;
+      margin-top: 5px;
+      a{
+         text-decoration: none;
+         font-weight: 700;
+         font-size: 19px;
+         color: #333333;
+      }
+   }
+}
+.news-date{
+   font-size: 13px;
+   color: #cccccc;
+
+}
+.news-view{
+   ul{
+      margin: 0;
+      padding: 0;
+      li{
+         display: inline-block;
+         list-style: none;
+         font-size: 14px;
+         color: #cccccc;
+         background: #f4f4f4;
+         padding: 5px 15px;
+         border-radius: 5px;
+         margin-top: 10px;
+         margin-right: 3px;
+      }
+   }
+}
+.news-link{
+   a{
+      font-weight: 700;
+      color: #333333;
+      text-decoration: none;
+      i{
+         color: $theme-color;
+      }
+   }
+}
