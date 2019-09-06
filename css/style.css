@@ -54,7 +54,7 @@ Template Name : Genius Courses
   opacity: 0.9; }
 
 /* Button Background Style */
-.text-g, .why-choose-icon i, .menu-area nav li:hover, .popular-img span, .event-items .single-event .event-date .border-gradient {
+.text-g, .why-choose-icon i, .menu-area nav li:hover, .popular-img span, .event-items .single-event .event-date .border-gradient, .video-icon {
   background: -webkit-gradient(linear, left top, right top, from(#01a6fd), color-stop(51%, #17d0cf), to(#01a6fd));
   background: -webkit-linear-gradient(left, #01a6fd 0%, #17d0cf 51%, #01a6fd 100%);
   background: -o-linear-gradient(left, #01a6fd 0%, #17d0cf 51%, #01a6fd 100%);
@@ -2038,6 +2038,44 @@ label {
   color: #333333;
   text-decoration: none; }
   .check-calendar a i {
+    color: #17d0cf; }
+
+.video-img {
+  position: relative; }
+
+.video-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%; }
+  .video-icon a {
+    color: #fff; }
+
+.video-content h4 {
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 1.4;
+  padding-top: 15px; }
+
+.video-content p {
+  font-size: 15px;
+  color: #cccccc;
+  line-height: 1.4; }
+
+.video-content a {
+  color: #333333;
+  text-decoration: none;
+  font-weight: 700;
+  margin-top: 35px;
+  display: block; }
+  .video-content a i {
     color: #17d0cf; }
 
 /*# sourceMappingURL=style.css.map */
