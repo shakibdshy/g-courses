@@ -1,0 +1,21 @@
+.brand-area{
+   padding: {
+      top: 65px;
+      bottom: 85px;
+   }
+   .title-h{
+      font-size: 38px;
+   }
+   @extend %owl-light;
+}
+.single-brand{
+   border-right: 1px solid #eeeeee;
+   padding: 0 {
+      left: 15px;
+      right: 15px
+   };
+   height: 120px;
+   img{
+      width: 100%;
+   }
+}

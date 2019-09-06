@@ -77,3 +77,18 @@
     -moz-background-clip: text;
     color: transparent;
 }
+%owl-light{
+    .owl-nav{
+        button{
+            @extend %owl-nav;
+            top: -75px;
+            margin: 0;
+            &.owl-prev{
+                left: 89%;
+            }
+            &.owl-next{
+                right: 0;
+            }
+        }
+    }
+}

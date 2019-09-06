@@ -115,7 +115,7 @@ Template Name : Genius Courses
   text-align: center;
   border-radius: 5px; }
 
-.slider-area .owl-nav button, .popular-courses-area .owl-nav button, .testimonial-area .owl-nav button {
+.popular-courses-area .owl-nav button, .brand-area .owl-nav button, .slider-area .owl-nav button, .testimonial-area .owl-nav button {
   position: absolute;
   top: 50%;
   font-size: 22px !important;
@@ -134,6 +134,14 @@ Template Name : Genius Courses
   -webkit-background-clip: text;
   -moz-background-clip: text;
   color: transparent; }
+
+.popular-courses-area .owl-nav button, .brand-area .owl-nav button {
+  top: -75px;
+  margin: 0; }
+  .popular-courses-area .owl-nav button.owl-prev, .brand-area .owl-nav button.owl-prev {
+    left: 89%; }
+  .popular-courses-area .owl-nav button.owl-next, .brand-area .owl-nav button.owl-next {
+    right: 0; }
 
 /*----------------------------------------*/
 /*  01. Theme default CSS
@@ -1601,13 +1609,6 @@ label {
 .popular-courses-area {
   padding-top: 75px;
   padding-bottom: 100px; }
-  .popular-courses-area .owl-nav button {
-    top: -75px;
-    margin: 0; }
-    .popular-courses-area .owl-nav button.owl-prev {
-      left: 89%; }
-    .popular-courses-area .owl-nav button.owl-next {
-      right: 0; }
 
 .popular-init:hover .popular-img a {
   opacity: 1;
@@ -2077,5 +2078,20 @@ label {
   display: block; }
   .video-content a i {
     color: #17d0cf; }
+
+.brand-area {
+  padding-top: 65px;
+  padding-bottom: 85px; }
+  .brand-area .title-h {
+    font-size: 38px; }
+
+.single-brand {
+  border-right: 1px solid #eeeeee;
+  padding: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+  height: 120px; }
+  .single-brand img {
+    width: 100%; }
 
 /*# sourceMappingURL=style.css.map */
