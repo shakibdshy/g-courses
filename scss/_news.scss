@@ -1,6 +1,14 @@
 /*===================== News Area Start =============================*/
-.news-wrapper{}
-.news-thum{
+.news-wrapper{
+   hr{
+      margin: 0;
+      padding: 0;
+      background: #eeeeee;
+      height: 1px;
+      width: 100%;
+   }
+}
+.news-thumb{
    float: left;
    margin-right: 20px;
 }
