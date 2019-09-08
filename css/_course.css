@@ -1,0 +1,40 @@
+.course-area {
+  background: #f7f7f7;
+  padding: 100px 0; }
+
+.course-wrapper {
+  margin-top: 40px; }
+
+.course-img {
+  position: relative;
+  overflow: hidden;
+  border-radius: 5px;
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  transition: .3s; }
+  .course-img img {
+    width: 100%; }
+  .course-img .tranding {
+    text-align: center;
+    font-size: 12px;
+    font-weight: 700;
+    color: #fff;
+    position: absolute;
+    top: -18px;
+    left: -50px;
+    padding: 30px 35px 5px;
+    background: #ff5a00;
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg); }
+    .course-img .tranding span {
+      display: block; }
+
+.course-pricing {
+  position: absolute;
+  bottom: 20px;
+  left: 20px; }
+  .course-pricing span {
+    padding: 5px 15px; }
+
+/*# sourceMappingURL=_course.css.map */
