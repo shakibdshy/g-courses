@@ -54,7 +54,7 @@ Template Name : Genius Courses
   opacity: 0.9; }
 
 /* Button Background Style */
-.text-g, .why-choose-icon i, .menu-area nav li:hover, .popular-img span, .event-items .single-event .event-date .border-gradient, .video-icon, .course-pricing span {
+.text-g, .why-choose-icon i, .menu-area nav li:hover, .popular-img span, .event-items .single-event .event-date .border-gradient, .video-icon, .course-pricing span, .teachers-thum a, .product-cart:hover {
   background: -webkit-gradient(linear, left top, right top, from(#01a6fd), color-stop(51%, #17d0cf), to(#01a6fd));
   background: -webkit-linear-gradient(left, #01a6fd 0%, #17d0cf 51%, #01a6fd 100%);
   background: -o-linear-gradient(left, #01a6fd 0%, #17d0cf 51%, #01a6fd 100%);
@@ -115,7 +115,7 @@ Template Name : Genius Courses
   text-align: center;
   border-radius: 5px; }
 
-.popular-courses-area .owl-nav button, .brand-area .owl-nav button, .slider-area .owl-nav button, .testimonial-area .owl-nav button {
+.popular-courses-area .owl-nav button, .brand-area .owl-nav button, .products-area .owl-nav button, .slider-area .owl-nav button, .testimonial-area .owl-nav button {
   position: absolute;
   top: 50%;
   font-size: 22px !important;
@@ -135,12 +135,12 @@ Template Name : Genius Courses
   -moz-background-clip: text;
   color: transparent; }
 
-.popular-courses-area .owl-nav button, .brand-area .owl-nav button {
+.popular-courses-area .owl-nav button, .brand-area .owl-nav button, .products-area .owl-nav button {
   top: -75px;
   margin: 0; }
-  .popular-courses-area .owl-nav button.owl-prev, .brand-area .owl-nav button.owl-prev {
+  .popular-courses-area .owl-nav button.owl-prev, .brand-area .owl-nav button.owl-prev, .products-area .owl-nav button.owl-prev {
     left: 89%; }
-  .popular-courses-area .owl-nav button.owl-next, .brand-area .owl-nav button.owl-next {
+  .popular-courses-area .owl-nav button.owl-next, .brand-area .owl-nav button.owl-next, .products-area .owl-nav button.owl-next {
     right: 0; }
 
 /*----------------------------------------*/
@@ -2206,5 +2206,164 @@ label {
     font-size: 12px;
     color: #ccc;
     padding-top: 8px; }
+
+.teachers {
+  background: url("../img/banner/teacher-b.jpg") center center/cover;
+  padding-top: 100px;
+  padding-bottom: 100px; }
+  .teachers-items {
+    margin-top: 85px; }
+  .teachers-thum {
+    position: relative;
+    left: 140px;
+    top: -20px;
+    display: inline-block;
+    z-index: 2;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s; }
+    .teachers-thum img {
+      width: 150px;
+      height: 150px;
+      border-radius: 5px; }
+    .teachers-thum hr {
+      position: relative;
+      top: -30px;
+      margin: 0;
+      left: -25px; }
+    .teachers-thum a {
+      text-transform: uppercase;
+      background-size: 200%;
+      color: #fff;
+      font-size: 12px;
+      position: relative;
+      top: -45px;
+      left: 66px;
+      opacity: 0;
+      visibility: hidden;
+      -webkit-transition: .3s;
+      -o-transition: .3s;
+      transition: .3s; }
+      .teachers-thum a.hover {
+        background-position: right center; }
+  .teachers-content {
+    background: #094f82;
+    width: 270px;
+    position: absolute;
+    padding: 20px;
+    top: 85px;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s; }
+  .teachers-social ul {
+    margin: 0;
+    padding: 0; }
+    .teachers-social ul li {
+      list-style: none;
+      width: 35px;
+      height: 35px;
+      line-height: 30px;
+      text-align: center;
+      border-radius: 50%;
+      margin-bottom: 5px;
+      padding: 5px;
+      -webkit-transition: .3s;
+      -o-transition: .3s;
+      transition: .3s; }
+      .teachers-social ul li:hover {
+        background: #fff; }
+      .teachers-social ul li a {
+        color: #3b7ca7; }
+
+.author {
+  float: left;
+  color: #fff;
+  margin-top: 15px;
+  width: 43%;
+  font-weight: 700;
+  line-height: 1; }
+
+.teacher-skill {
+  overflow: hidden;
+  float: right;
+  color: #17d0cf;
+  margin-top: 30px;
+  font-size: 13px; }
+
+.teachers-items:hover .teachers-thum {
+  left: 120px; }
+  .teachers-items:hover .teachers-thum a {
+    left: 36px;
+    opacity: 1;
+    visibility: visible;
+    padding: 5px 10px;
+    letter-spacing: 0; }
+
+.products-area {
+  padding: 100px 0; }
+
+.single-product {
+  background: #f5f5f5;
+  padding: 25px;
+  margin-top: 10px;
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  transition: .3s;
+  border-radius: 5px;
+  max-width: 290px; }
+
+.product-img img {
+  width: auto; }
+
+.product-content {
+  padding-top: 25px; }
+  .product-content .product-text {
+    float: left; }
+    .product-content .product-text h4 {
+      font-size: 18px;
+      margin: 0;
+      font-weight: 700; }
+      .product-content .product-text h4 a {
+        color: #333333;
+        text-decoration: none; }
+    .product-content .product-text p {
+      font-size: 12px;
+      color: #cccccc;
+      font-weight: 700; }
+      .product-content .product-text p span {
+        font-weight: 500;
+        color: #17d0cf; }
+
+.product-cart {
+  overflow: hidden;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  background: #fff;
+  border-radius: 50%;
+  line-height: 40px;
+  display: inline-block;
+  margin-left: 15px;
+  margin-top: 5px;
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  transition: .3s; }
+  .product-cart:hover {
+    background-size: 200%; }
+  .product-cart a {
+    color: #bbbbbb;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s; }
+    .product-cart a:hover {
+      color: #fff; }
+
+.single-product:hover {
+  background: #fff;
+  -webkit-box-shadow: 0px 4px 17px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 4px 17px 0px rgba(0, 0, 0, 0.1); }
+
+.faq-area {
+  margin-bottom: 100px; }
 
 /*# sourceMappingURL=style.css.map */
