@@ -1,12 +1,12 @@
-$(document).ready(function () {
+jQuery(document).ready(function ($) {
 
       // Responsive Menu
-      $('#mobile-menu').meanmenu({
+      jQuery('#mobile-menu').meanmenu({
             meanMenuContainer: '.mobile-menu',
             meanScreenWidth: "991"
       });
       // Slider Active
-      $('.slider-active').owlCarousel({
+      jQuery('.slider-active').owlCarousel({
             loop:true,
             nav:true,
             nevText: ['<i class="fas fa-chevron-left"></i>','<i class="fas fa-chevron-right"></i>'],
