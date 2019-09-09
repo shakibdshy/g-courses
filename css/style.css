@@ -54,7 +54,7 @@ Template Name : Genius Courses
   opacity: 0.9; }
 
 /* Button Background Style */
-.text-g, .why-choose-icon i, .menu-area nav li:hover, .popular-img span, .event-items .single-event .event-date .border-gradient, .video-icon, .course-pricing span, .teachers-thum a, .product-cart:hover {
+.text-g, .why-choose-icon i, .cat-item span, .menu-area nav li:hover, .popular-img span, .event-items .single-event .event-date .border-gradient, .video-icon, .course-pricing span, .teachers-thum a, .product-cart:hover {
   background: -webkit-gradient(linear, left top, right top, from(#01a6fd), color-stop(51%, #17d0cf), to(#01a6fd));
   background: -webkit-linear-gradient(left, #01a6fd 0%, #17d0cf 51%, #01a6fd 100%);
   background: -o-linear-gradient(left, #01a6fd 0%, #17d0cf 51%, #01a6fd 100%);
@@ -130,7 +130,7 @@ Template Name : Genius Courses
   -ms-transform: translateY(-50);
   transform: translateY(-50); }
 
-.text-g, .why-choose-icon i {
+.text-g, .why-choose-icon i, .cat-item span {
   background-clip: text;
   -webkit-background-clip: text;
   -moz-background-clip: text;
@@ -2364,55 +2364,49 @@ label {
   -webkit-box-shadow: 0px 4px 17px 0px rgba(0, 0, 0, 0.1);
   box-shadow: 0px 4px 17px 0px rgba(0, 0, 0, 0.1); }
 
-.faq-area {
-  margin-bottom: 100px; }
+.categorys-area {
+  background: #f7f7f7;
+  padding: 100px 0; }
 
-.faq ul {
-  margin: 0;
-  padding: 0;
-  text-align: center; }
-  .faq ul li {
-    list-style: none;
-    display: inline-block;
-    margin-top: 35px;
-    position: relative;
-    margin-right: 35px; }
-    .faq ul li a {
-      font-size: 16px;
-      font-weight: 700;
-      color: #dddddd;
-      text-transform: uppercase;
-      text-decoration: none; }
-
-.faq .ui-state-active {
-  position: relative; }
-  .faq .ui-state-active::after {
+.cat-item {
+  margin-top: 50px;
+  padding: 35px;
+  background: #fff;
+  position: relative;
+  border-radius: 5px;
+  z-index: 1; }
+  .cat-item::after {
     position: absolute;
     content: '';
     width: 100%;
-    height: 2px;
+    height: 100%;
     background: #17d0cf;
+    top: 0;
     left: 0;
-    top: 35px; }
-  .faq .ui-state-active a {
-    color: #333333; }
-
-.faq .faq-content {
-  margin-top: 50px; }
-  .faq .faq-content h3 {
-    font-size: 22px;
-    font-weight: 700; }
-  .faq .faq-content p {
-    color: #aaaaaa;
-    font-size: 16px; }
-  .faq .faq-content a {
-    font-size: 16px;
-    color: #333333;
-    text-decoration: none;
-    font-weight: 700;
-    margin-top: 45px;
-    display: block; }
-    .faq .faq-content a i {
-      color: #17d0cf; }
+    background-size: 190%;
+    z-index: -1;
+    -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+    opacity: 0;
+    visibility: hidden;
+    border-radius: 5px; }
+  .cat-item span {
+    font-size: 60px; }
+  .cat-item h4 {
+    font-size: 18px; }
+  .cat-item:hover::after {
+    opacity: 1;
+    visibility: visible;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1); }
+  .cat-item:hover span {
+    color: #fff; }
+  .cat-item:hover h4 {
+    color: #fff; }
 
 /*# sourceMappingURL=style.css.map */
