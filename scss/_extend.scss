@@ -8,6 +8,7 @@
     letter-spacing: 7px;
     margin: 0;
     display: inline-block;
+    text-transform: uppercase;
     @media #{$xs}{
         letter-spacing: 5px;
     }
