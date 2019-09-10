@@ -1,9 +1,15 @@
 .about-area{
    background: #eaeaea;
    padding-top: 95px;
+   @media #{$xs} {
+      padding-bottom: 50px; 
+   }
 }
 .about-init{
    position: relative;
+   @media #{$xs}{
+      display: none;
+   }
 }
 .about-bg{
    position: relative;
@@ -15,6 +21,15 @@
    left: 24px;
    padding: 30px;
    top: 0;
+   @media #{$lg} {
+      left: 10px;
+   }
+
+   @media #{$md} {
+      left: 0px;
+      top: 70px !important;
+      width: 100%;
+   }
 }
 .about-text{
    text-align: center;
@@ -39,6 +54,9 @@
          border-radius: 5px;
          margin-bottom: 5px;
          border: none;
+         @media #{$md} {
+            padding: 5px 10px;
+         }
       }
       select{
          width: 100%;
@@ -74,6 +92,9 @@
    span{
       font-size: 22px;
       font-weight: 500;
+      @media #{$md} {
+         font-size: 18px;
+      }
    }
    p{
       font-size: 18px;
@@ -104,6 +125,9 @@
       a{
          margin-right: 20px;
          padding: 15px 25px;
+      }
+      @media #{$md} {
+         display: none;
       }
    }
 }

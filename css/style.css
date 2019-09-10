@@ -141,6 +141,12 @@ Template Name : Genius Courses
   margin: 0; }
   .popular-courses-area .owl-nav button.owl-prev, .brand-area .owl-nav button.owl-prev, .products-area .owl-nav button.owl-prev {
     left: 89%; }
+    @media only screen and (min-width: 992px) and (max-width: 1200px) {
+      .popular-courses-area .owl-nav button.owl-prev, .brand-area .owl-nav button.owl-prev, .products-area .owl-nav button.owl-prev {
+        left: 86%; } }
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      .popular-courses-area .owl-nav button.owl-prev, .brand-area .owl-nav button.owl-prev, .products-area .owl-nav button.owl-prev {
+        left: 86%; } }
   .popular-courses-area .owl-nav button.owl-next, .brand-area .owl-nav button.owl-next, .products-area .owl-nav button.owl-next {
     right: 0; }
 
@@ -257,6 +263,10 @@ hr {
   margin: 35px 0;
   padding: 0;
   border: none; }
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    hr {
+      margin-top: 25px;
+      margin-bottom: 25px; } }
 
 label {
   color: #17d0cf;
@@ -365,6 +375,9 @@ label {
   background: linear-gradient(to right, #01a6fd 0%, #17d0cf 51%, #01a6fd 100%);
   color: #fff;
   padding: 20px 30px; }
+  @media (max-width: 767px) {
+    .theme-btn {
+      padding: 20px; } }
 
 /* Small Heding Title*/
 .single-content p {
@@ -1496,6 +1509,10 @@ label {
   .cart-area li a {
     color: #fff; }
 
+@media (max-width: 575px) {
+  .mean-container .mean-bar {
+    right: 0; } }
+
 .slider-area {
   position: relative;
   top: -90px;
@@ -1571,6 +1588,9 @@ label {
       background: #f9f9f9;
       border: none;
       border-radius: 5px; }
+      @media (max-width: 767px) {
+        .search form input {
+          padding: 20px; } }
     .search form button {
       border: none;
       position: absolute;
@@ -1579,6 +1599,13 @@ label {
       border-top-left-radius: 0;
       border-bottom-left-radius: 0;
       cursor: pointer; }
+      @media (max-width: 575px) {
+        .search form button {
+          position: unset;
+          display: block;
+          width: 100%;
+          border-radius: 5px;
+          margin-top: 20px; } }
 
 .search-content .search-icon {
   font-size: 38px;
@@ -1603,6 +1630,14 @@ label {
   margin-bottom: 15px;
   display: block; }
 
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .search-content {
+    margin-bottom: 35px; } }
+
+@media (max-width: 767px) {
+  .search-content {
+    margin-bottom: 35px; } }
+
 /*Search Area Start*/
 /*
    Popular Courses
@@ -1626,7 +1661,7 @@ label {
   -o-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s; }
   .popular-img img {
-    width: 100%; }
+    max-width: 100%; }
   .popular-img span {
     font-weight: 700;
     padding: 5px 15px;
@@ -1664,12 +1699,28 @@ label {
     font-size: 14px;
     font-weight: 700;
     margin-right: 30px; }
+    @media only screen and (min-width: 1200px) and (max-width: 1450px) {
+      .popular-meta .cata a {
+        margin-right: 20px; } }
+    @media only screen and (min-width: 992px) and (max-width: 1200px) {
+      .popular-meta .cata a {
+        margin-right: 20px; } }
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      .popular-meta .cata a {
+        margin-right: 20px; } }
+  @media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .popular-meta .cata {
+      display: none; } }
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .popular-meta .cata {
+      display: none; } }
   .popular-meta .author {
     position: relative;
-    margin-right: 30px; }
+    margin-top: 2px; }
     .popular-meta .author a {
       font-size: 14px;
-      font-weight: 700; }
+      font-weight: 700;
+      color: #333333; }
     .popular-meta .author::before {
       position: absolute;
       content: '';
@@ -1678,6 +1729,12 @@ label {
       background: #d0d0d0;
       top: 5px;
       left: -14px; }
+    @media only screen and (min-width: 992px) and (max-width: 1200px) {
+      .popular-meta .author {
+        display: none; } }
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      .popular-meta .author {
+        display: none; } }
   .popular-meta .review {
     position: relative; }
     .popular-meta .review li {
@@ -1694,6 +1751,12 @@ label {
       background: #d0d0d0;
       top: 5px;
       left: -14px; }
+    @media only screen and (min-width: 992px) and (max-width: 1200px) {
+      .popular-meta .review {
+        display: none; } }
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      .popular-meta .review {
+        display: none; } }
 
 .popular-title {
   padding-top: 12px; }
@@ -1733,9 +1796,15 @@ label {
 .about-area {
   background: #eaeaea;
   padding-top: 95px; }
+  @media (max-width: 767px) {
+    .about-area {
+      padding-bottom: 50px; } }
 
 .about-init {
   position: relative; }
+  @media (max-width: 767px) {
+    .about-init {
+      display: none; } }
 
 .about-bg {
   position: relative; }
@@ -1747,6 +1816,14 @@ label {
   left: 24px;
   padding: 30px;
   top: 0; }
+  @media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .about-content {
+      left: 10px; } }
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .about-content {
+      left: 0px;
+      top: 70px !important;
+      width: 100%; } }
 
 .about-text {
   text-align: center; }
@@ -1766,6 +1843,9 @@ label {
   border-radius: 5px;
   margin-bottom: 5px;
   border: none; }
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .about-form form input {
+      padding: 5px 10px; } }
 
 .about-form form select {
   width: 100%;
@@ -1798,6 +1878,9 @@ label {
 .about-right-content span {
   font-size: 22px;
   font-weight: 500; }
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .about-right-content span {
+      font-size: 18px; } }
 
 .about-right-content p {
   font-size: 18px; }
@@ -1826,6 +1909,9 @@ label {
   .about-right-content .about-btn a {
     margin-right: 20px;
     padding: 15px 25px; }
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .about-right-content .about-btn {
+      display: none; } }
 
 /*********************************
  Why Choose Area Start 
@@ -1975,6 +2061,9 @@ label {
     border-radius: 5px;
     margin-top: 10px;
     margin-right: 3px; }
+    @media only screen and (min-width: 992px) and (max-width: 1200px) {
+      .news-view ul li {
+        padding: 5px 10px; } }
 
 .news-link a {
   font-weight: 700;
@@ -1983,8 +2072,21 @@ label {
   .news-link a i {
     color: #17d0cf; }
 
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .news-link {
+    margin-bottom: 30px; } }
+
+@media (max-width: 767px) {
+  .news-link {
+    display: block;
+    padding-top: 30px;
+    margin-bottom: 30px; } }
+
 .event-items .single-event {
   margin-bottom: 33px; }
+  @media (max-width: 767px) {
+    .event-items .single-event {
+      margin-bottom: 60px; } }
   .event-items .single-event .event-date {
     position: relative;
     width: 94px;
@@ -2041,6 +2143,11 @@ label {
   text-decoration: none; }
   .check-calendar a i {
     color: #17d0cf; }
+  @media (max-width: 767px) {
+    .check-calendar a {
+      display: block;
+      padding-top: 20px;
+      margin-bottom: 30px; } }
 
 .video-img {
   position: relative; }
@@ -2216,7 +2323,7 @@ label {
     margin-top: 85px; }
   .teachers-thum {
     position: relative;
-    left: 140px;
+    left: 120px;
     top: -20px;
     display: inline-block;
     z-index: 2;
@@ -2364,6 +2471,57 @@ label {
   -webkit-box-shadow: 0px 4px 17px 0px rgba(0, 0, 0, 0.1);
   box-shadow: 0px 4px 17px 0px rgba(0, 0, 0, 0.1); }
 
+.faq-area {
+  margin-bottom: 100px; }
+
+.faq ul {
+  margin: 0;
+  padding: 0;
+  text-align: center; }
+  .faq ul li {
+    list-style: none;
+    display: inline-block;
+    margin-top: 35px;
+    position: relative;
+    margin-right: 35px; }
+    .faq ul li a {
+      font-size: 16px;
+      font-weight: 700;
+      color: #dddddd;
+      text-transform: uppercase;
+      text-decoration: none; }
+
+.faq .ui-state-active {
+  position: relative; }
+  .faq .ui-state-active::after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: #17d0cf;
+    left: 0;
+    top: 35px; }
+  .faq .ui-state-active a {
+    color: #333333; }
+
+.faq .faq-content {
+  margin-top: 50px; }
+  .faq .faq-content h3 {
+    font-size: 22px;
+    font-weight: 700; }
+  .faq .faq-content p {
+    color: #aaaaaa;
+    font-size: 16px; }
+  .faq .faq-content a {
+    font-size: 16px;
+    color: #333333;
+    text-decoration: none;
+    font-weight: 700;
+    margin-top: 45px;
+    display: block; }
+    .faq .faq-content a i {
+      color: #17d0cf; }
+
 .categorys-area {
   background: #f7f7f7;
   padding: 100px 0; }
@@ -2436,7 +2594,8 @@ label {
   line-height: 50px;
   border-radius: 50%;
   text-align: center;
-  font-size: 30px; }
+  font-size: 30px;
+  border: 5px solid #17d0cf; }
 
 .contact-info ul {
   overflow: hidden;
@@ -2454,6 +2613,15 @@ label {
   background: #1e6696;
   height: 2px;
   width: 65%; }
+
+.google-map {
+  overflow: hidden; }
+  @media (max-width: 767px) {
+    .google-map {
+      display: none; } }
+  @media (max-width: 767px) {
+    .google-map {
+      display: none; } }
 
 .footer-top {
   padding-top: 100px; }

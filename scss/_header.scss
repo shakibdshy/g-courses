@@ -122,4 +122,10 @@
         }
     }
 }
+
+.mean-container .mean-bar{
+    @media #{$mobile}{
+        right: 0;
+    }
+}
 // Header Area End

@@ -45,6 +45,9 @@
          border-radius: 5px;
          margin-top: 10px;
          margin-right: 3px;
+         @media #{$lg}{
+            padding: 5px 10px;
+         }
       }
    }
 }
@@ -56,5 +59,13 @@
       i{
          color: $theme-color;
       }
+   }
+   @media #{$md}{
+      margin-bottom: 30px;
+   }
+   @media #{$xs}{
+      display: block;
+      padding-top: 30px;
+      margin-bottom: 30px;
    }
 }

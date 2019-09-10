@@ -104,6 +104,12 @@ hr {
 	margin: 35px 0;
 	padding: 0;
 	border: none;
+	@media #{$md}{
+		margin: {
+			top: 25px;
+			bottom: 25px;
+		}
+	}
 }
 label {
 	color: $theme-color;
@@ -220,6 +226,9 @@ label {
 	background: linear-gradient(to right, #01a6fd 0%, #17d0cf 51%, #01a6fd 100%);
 	color: $white;
 	padding: 20px 30px;
+	@media #{$xs}{
+		padding: 20px;
+	}
 }
 
 

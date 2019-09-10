@@ -2,6 +2,9 @@
 .event-items{
    .single-event{
       margin-bottom: 33px;
+      @media #{$xs}{
+         margin-bottom: 60px;
+      }
       .event-date{
          position: relative;
          width: 94px;
@@ -70,6 +73,11 @@
       text-decoration: none;
       i{
          color: $theme-color;
+      }
+      @media #{$xs} {
+         display: block;
+         padding-top: 20px;
+         margin-bottom: 30px;
       }
    }
 }

@@ -23,7 +23,7 @@
    margin-bottom: 23px;
    @include transition(.3s);
    img{
-      width:100%;
+      max-width:100%;
    }
    span{
       font-weight: 700;
@@ -60,14 +60,31 @@
          font-size: 14px;
          font-weight: 700;
          margin-right: 30px;
+         @media #{$laptop}{
+            margin-right: 20px;
+         }
+         @media #{$lg} {
+            margin-right: 20px;
+         }
+         @media #{$md}{
+            margin-right: 20px;
+         }
+      }
+      @media #{$lg} {
+         display: none;
+      }
+
+      @media #{$md} {
+         display: none;
       }
    }
    .author{
       position: relative;
-      margin-right: 30px;
+      margin-top: 2px;
       a{
          font-size: 14px;
          font-weight: 700;
+         color: #333333;
       }
       &::before{
          position: absolute;
@@ -77,6 +94,13 @@
          background: #d0d0d0;
          top: 5px;
          left: -14px;
+      }
+      @media #{$lg} {
+         display: none;
+      }
+
+      @media #{$md} {
+         display: none;
       }
    }
    .review{
@@ -96,6 +120,13 @@
          background: #d0d0d0;
          top: 5px;
          left: -14px; 
+      }
+      @media #{$lg} {
+         display: none;
+      }
+
+      @media #{$md} {
+         display: none;
       }
    }
 }

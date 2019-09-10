@@ -10,6 +10,9 @@
          background: #f9f9f9;
          border: none;
          border-radius: 5px;
+         @media #{$xs} {
+            padding: 20px;
+         }
       }
       button{
          border: none;
@@ -19,6 +22,13 @@
          border-top-left-radius: 0;
          border-bottom-left-radius: 0;
          cursor: pointer;
+         @media #{$mobile}{
+            position: unset;
+            display: block;
+            width: 100%;
+            border-radius: 5px;
+            margin-top: 20px;
+         }
       }
    }
 }
@@ -46,5 +56,14 @@
       margin-bottom: 15px;
       display: block;
    }
+}
+
+.search-content {
+   @media #{$md} {
+      margin-bottom: 35px;
+   }
+   @media #{$xs} {
+      margin-bottom: 35px;
+   } 
 }
 /*Search Area Start*/
