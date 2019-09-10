@@ -2409,4 +2409,50 @@ label {
   .cat-item:hover h4 {
     color: #fff; }
 
+.contact-area {
+  background: url("/img/banner/contact-b.jpg");
+  padding: 100px 0; }
+
+.contact-text {
+  color: #fff; }
+  .contact-text p {
+    font-size: 18px;
+    padding-top: 20px;
+    padding-bottom: 25px; }
+  .contact-text a.theme-btn {
+    margin-top: 85px;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+    padding: 15px 25px; }
+    .contact-text a.theme-btn:hover {
+      background-position: right center; }
+
+.contact-info .info-icon {
+  float: left;
+  margin-right: 20px;
+  width: 60px;
+  height: 60px;
+  line-height: 50px;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 30px; }
+
+.contact-info ul {
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 10px;
+  padding-top: 4px; }
+  .contact-info ul li {
+    list-style: none;
+    font-weight: 300; }
+    .contact-info ul li b {
+      font-weight: 700; }
+
+.contact-info hr {
+  background: #1e6696;
+  height: 2px;
+  width: 65%; }
+
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,20 @@
+.contact-area {
+  background: url("/img/banner/contact-b.jpg");
+  padding: 100px 0; }
+
+.contact-text {
+  color: #fff; }
+  .contact-text p {
+    font-size: 18px;
+    padding-top: 20px;
+    padding-bottom: 25px; }
+  .contact-text a.theme-btn {
+    margin-top: 85px;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+    padding: 15px 25px; }
+    .contact-text a.theme-btn:hover {
+      background-position: right center; }
+
+/*# sourceMappingURL=_contact.css.map */
